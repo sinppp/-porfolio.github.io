@@ -1,0 +1,200 @@
+@media only screen and (min-width: 768px) 
+{
+body{
+	background-color:lightgrey;
+	font-family: 'Montserrat', sans-serif;
+}
+.two{
+	position:absolute;
+	left: 69%;
+	top: 0;
+	width:30%;
+	height:135%;
+}
+.one{
+	position:absolute;
+	left:0%;
+	top: 0;
+	padding-top: 0;
+	width:30%;
+	height:135%;
+}
+#head{
+  position: absolute;
+  text-align:center;
+  top: 8%;
+  left: 50%;
+  width:35%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color:#1B2631;
+  font-weight:500;
+}
+#det{
+  position: absolute;
+  display:block;
+  top: 98%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #34495E ;
+  width: 30%;
+  font-weight:400;
+}
+
+.slider{
+	 position: absolute;
+     display:block;
+	
+     top: 38%;
+     left: 47.6%;
+     transform: translate(-50%, -50%);
+	width:24%;
+	height:24%;
+	margin: 20px;
+	background: url(pic1.jpg);
+	background-repeat:no-repeat;
+	animation: slide 10s infinite;
+	
+}
+@keyframes slide{
+	33%{
+		background: url(pic2.jpg);
+	}
+	67%{
+		background: url(pic3.jpg);
+	}
+	100%{
+		background: url(pic1.jpg);
+	}
+}
+a:link{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#footer{
+  position: absolute;
+  display:block;
+  top: 138%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: dimgrey ;
+  width: 400px;
+}
+#top{
+  position: absolute;
+  display:block;
+  top: 3%;
+  left: 5.5%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+}
+#top2{
+  position: absolute;
+  display:block;
+  top: 3%;
+  left: 73.5%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+}
+#bac{
+	display:none;
+}
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+	body{
+	background-color:lightgrey;
+	font-family: 'Montserrat', sans-serif;
+}
+.two,.one{
+	display:none;
+}
+#bac{
+	width:99%;
+	height:100%;
+}
+#head{
+  position: absolute;
+  text-align:center;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 160%;
+  font-weight:500;
+  color:gainsboro;
+}
+#det{
+  position: absolute;
+  display:block;
+  text-align:center;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100%;
+  font-family: verdana,arial,sans-serif;
+  color:silver ;
+  width: 80%;
+}
+.slider{
+	 position: absolute;
+     display:block;
+	
+     top: 25%;
+     left: 45.6%;
+     transform: translate(-50%, -50%);
+	width:260px;
+	height:120px;
+	margin: 20px;
+	background: url(pic1.jpg);
+	background-repeat:no-repeat;
+	animation: slide 10s infinite;
+	
+}
+@keyframes slide{
+	33%{
+		background: url(pic2.jpg);
+	}
+	67%{
+		background: url(pic3.jpg);
+	}
+	100%{
+		background: url(pic1.jpg);
+	}
+}
+a:link{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#top{
+  position: absolute;
+  display:block;
+  top: 4%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  font-weight:500;
+}
+#top2{
+  position: absolute;
+  display:block;
+  top: 4%;
+  right: 2%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  font-weight:500;
+}
+#footer{
+	position:absolute;
+	top:94%;
+	left:50%;
+	color:silver;
+}
+}

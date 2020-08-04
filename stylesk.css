@@ -1,0 +1,113 @@
+@media only screen and (min-width: 1000px) 
+{
+body{
+	background-color:lightgrey;
+	font-family: 'Montserrat', sans-serif;
+}
+#mob{
+	display:none;
+}
+.wall{
+	text-align: center;
+    display: block;
+	padding-top:15px;
+	position: relative;
+	color: whitesmoke;
+	padding-top:0;
+	object-fit: cover;
+
+}
+#desk{
+	width:99%;
+}
+#name{
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight:500;
+  color: gainsboro;
+}
+#about{
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 17px;
+  font-weight:400;
+  color: silver;
+  line-height: 24px;
+}
+#top{
+	  position: absolute;
+	  top: 3%;
+	  left: 3%;
+	  font-size:14.5px;
+	}
+	#top2{
+	  position: absolute;
+	  top: 3%;
+	  left: 90%;
+	  font-size:14.5px;
+	}
+	
+	a:link{
+	text-decoration:none;
+	}
+	a:hover{
+	text-decoration: underline;
+	}
+}
+@media only screen and (max-width: 1000px) 
+{
+	body
+	{
+	background-color:lightgrey;
+	font-family: 'Montserrat', sans-serif;
+	}
+    #desk{
+	display:none;
+	}
+	#mob{
+		width:99%;
+	}
+	#name{
+	  position: absolute;
+	  top: 13%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  font-size: 37px;
+      font-weight:500;
+	  color: gainsboro;
+}
+	#about{
+	  position: absolute;
+	  top: 59%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  font-size: 14.9px;
+      font-weight:400;
+	  color: silver;
+	  line-height: 24px;
+	}
+	#top{
+	  position: absolute;
+	  top: 3%;
+	  left: 7%;
+	  font-size:14.5px;
+	}
+		#top2{
+	  position: absolute;
+	  top: 3%;
+	  left: 76%;
+	  font-size:14.5px;
+	}
+	
+	a:link{
+	text-decoration:none;
+	}
+	a:hover{
+	text-decoration: underline;
+	}
+}
